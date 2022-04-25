@@ -1,9 +1,10 @@
 import './App.css';
+import Card from './components/Utilities/Card';
 
 function App() {
   return (
     <div className="App">
-       <p className="underline">The quick brown fox ...</p>
+       <Card></Card>
     </div>
   );
 }
